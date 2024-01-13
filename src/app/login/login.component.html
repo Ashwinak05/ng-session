@@ -1,0 +1,31 @@
+<div class="login-class">
+  <h1 class="login-header">Welcome to Angular Training</h1>
+  <button
+    (click)="login()"
+    type="button"
+    class="btn btn-style"
+    style="background-color: #333f4f"
+    [routerLink]="'/home'"
+  >
+    Login
+  </button>
+  <div class="form-style">
+    <div class="form-outline mb-4">
+      <input
+        placeholder="username"
+        type="email"
+        [(ngModel)]="username"
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-outline mb-4">
+      <input
+        placeholder="password"
+        type="password"
+        [(ngModel)]="password"
+        class="form-control"
+      />
+    </div>
+  </div>
+</div>

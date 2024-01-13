@@ -1,0 +1,39 @@
+.header-class {
+  background-color: #333f4f;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+
+  button {
+    flex-wrap: nowrap;
+    float: right;
+  }
+}
+
+.button-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem 0rem;
+}
+
+.errorMsg-class {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.content-class {
+  padding: 3rem 2rem;
+}
+
+.button-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+}

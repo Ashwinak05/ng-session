@@ -1,0 +1,19 @@
+<div class="contact-us-content">
+  <div class="form-content">
+    <button (click)="formDirty()" type="button" class="btn btn-primary">
+      Form dirty
+    </button>
+    <button (click)="resetForm()" type="button" class="btn btn-primary">
+      Rest form
+    </button>
+  </div>
+  <button
+    [routerLink]="'/home'"
+    n
+    (click)="exitPage()"
+    type="button"
+    class="btn btn-primary"
+  >
+    Exit
+  </button>
+</div>
